@@ -1,0 +1,7 @@
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-include-cache
+
+# paginate options
+paginate: 5
+paginate_path: "/page:num/"
