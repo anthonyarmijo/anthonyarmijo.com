@@ -2,6 +2,30 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-include-cache
 
+title: "My Tech Blog"
+subtitle: "A blog about tech, life, and everything in between."
+description: "Anthony Armijo — Cloud Systems Administrator and aspiring DevOps Engineer. Sharing insights on AWS, automation, secure infrastructure, and my journey toward scalable, production-grade cloud systems."
+author:
+  name: "Anthony Armijo"
+  avatar: "/assets/images/avatar.jpg"
+  location: "San Diego, CA"
+  email: "anthony.armijo@icloud.com"
+
+locale: "en-US"
+repository: "anthonyarmijo/anthonyarmijo.com"
+
 # paginate options
 paginate: 5
 paginate_path: "/page:num/"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
