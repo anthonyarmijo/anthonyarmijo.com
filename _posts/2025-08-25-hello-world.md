@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Hello world..."
 tags: introduction devops learning
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Jekyll - My First Steps"
 tags: jekyll
 ---
