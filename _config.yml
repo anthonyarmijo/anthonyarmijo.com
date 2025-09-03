@@ -25,7 +25,15 @@ defaults:
       type: posts
     values:
       layout: single
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      author_profile: true
+      sidebar:
+        nav: docs
+
+  # all pages, including index.hmtml
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      sidebar:
+        nav: docs
