@@ -1,11 +1,21 @@
-- title: Home
-  url: /
-
-- title: About
-  url: /about/
-
-- title: Blog
-  url: /blog/
-
-- title: Contact
-  url: /contact/
+docs:
+  - title: About Me
+    children:
+      - title: Who I am
+        url: /
+      - title: Résumé
+        url: /
+      - title: Contact
+        url: /
+      
+  - title: Projects
+    children:
+      - title: DevOps Portfolio # overview
+        url: /
+      - title: Infrastructure as Code # terraform, ansible
+        url: /
+      - title: CI/CD Pipelines # jenkins, github actions examples
+        url: /
+      - title: Monitoring & Automation # prometheus, scripts, etc
+        url: /
+  
